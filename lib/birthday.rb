@@ -11,7 +11,8 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_kids)
-  if 
+  birthday_kids.collect do |kids_name, age|
+    if age >= 10 
     
   end
 end 
